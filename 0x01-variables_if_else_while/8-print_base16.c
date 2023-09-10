@@ -7,12 +7,17 @@
  */
 int main(void)
 {
-	int n = 48;
+	char c = '0';
 
-	while (n <= 57)
+		while (c <= 'f')
 	{
-		putchar(n);
-		n++;
+		if (c > '9' && c < 'a')
+	{
+			c++;
+			continue;
+	}
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);

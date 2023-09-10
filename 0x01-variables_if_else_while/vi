@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -7,12 +6,12 @@
  */
 int main(void)
 {
-	int n = 48;
+	int a = 48;
 
-	while (n <= 57)
+	while (a <=57)
 	{
-		putchar(n);
-		n++;
+		putchar(a);
+		a++;
 	}
 	putchar('\n');
 	return (0);
